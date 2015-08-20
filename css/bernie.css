@@ -1,0 +1,33 @@
+img {
+	width: 500px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	top: 0;
+	width: 100%;
+	background-color: rgba(1, 1, 1, 0.8);
+	color: rgba(1, 1, 1, 0.8);
+	text-align: center;
+	height: 30px;
+	color: white;
+	padding-top: 15px;
+}
+
+nav a {
+	color: white;
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	font: sans-serif;
+}
+
+nav a:hover {
+	color: grey;
+	
+}
