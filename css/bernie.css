@@ -37,7 +37,29 @@ nav a:hover {
 	height: 755px;
 }
 
-#main-image {
+#main {
 	border: 1px solid blue;
-	height: 400px;
+	height: 465px;
+}
+
+#main img {
+	width: 600px;
+	margin-top: 22px;
+}
+
+#maintext {
+	
+	background-color: rgba(1, 1, 1, 0.8);
+	width: 500px;
+	/*height: 200px;*/
+	float: right;
+	padding: 30px;
+	text-align: center;
+	margin-right:170px;
+	color: white;
+}
+
+#headfont {
+	font-family: Helvetica;
+	text-shadow: 1px 1px  black;
 }
