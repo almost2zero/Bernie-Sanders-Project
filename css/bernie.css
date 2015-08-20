@@ -31,3 +31,13 @@ nav a:hover {
 	color: grey;
 	
 }
+
+#wrapper {
+	border: 1px solid red;
+	height: 755px;
+}
+
+#main-image {
+	border: 1px solid blue;
+	height: 400px;
+}
