@@ -67,10 +67,15 @@ ul {
 #bernie-social a[class*="instagrem"]:hover,
 #bernie-social a[class*="instagrem"] span { background: #517fa4; }
 
+body{
+   padding: 0;
+   margin: 0;
+}
+
 nav {
    top: 0;
    width: 100%;
-   background-color: rgba(1, 1, 1, 0.8);
+   background-color: rgba(20, 127, 215, 0.8);
    color: rgba(1, 1, 1, 0.8);
    text-align: center;
    height: 30px;
@@ -89,13 +94,13 @@ nav a {
    font: sans-serif;
 }
 
+nav a:hover {
+   color: grey;
+}
+
 #aboutWrapper{
    margin: 0 auto;
    width: 960;
-}
-
-nav a:hover {
-   color: grey;
 }
 
 .aboutBernie{

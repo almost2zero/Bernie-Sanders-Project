@@ -59,11 +59,15 @@ ul {
 #bernie-social a[class*="instagrem"]:hover,
 #bernie-social a[class*="instagrem"] span { background: #517fa4; } 
 
+body{
+   padding: 0;
+   margin: 0;
+}
 
 nav {
    top: 0;
    width: 100%;
-   background-color: rgba(1, 1, 1, 0.8);
+   background-color: rgba(20, 127, 215, 0.8);
    color: rgba(1, 1, 1, 0.8);
    text-align: center;
    height: 30px;
@@ -84,3 +88,24 @@ nav a {
 
 nav a:hover {
    color: grey; 
+}
+
+#issuesWrapper{
+   margin: 0 auto;
+   width: 960;
+}
+
+.issuesBernie1{
+   color: red;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+}
+
+.issuesBernie2{
+   color: #5A55FF;
+   padding-top: 0px;
+   margin-top: 0px;
+   font-family: cursive;
+}
+
+
