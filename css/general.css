@@ -4,29 +4,24 @@
 [class*="entypo-"]:before {
    font-family: "entypo", sans-serif;
 }
-
 a { 
    text-decoration: none;
 }
-
 ul {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-
 .container {
    margin: 0 auto;
    padding: 20px 50px;
    background: white;
 }
-
 #bernie-social {
    left: 0;
    position: fixed;
    top: 150px;
 }
-
 #bernie-social a {
    background: #333;
    color: #fff;
@@ -38,7 +33,6 @@ ul {
    text-align: center;
    width: 35px;
 }
-
 #bernie-social a span {
    line-height: 35px;
    left: -120px;
@@ -46,11 +40,9 @@ ul {
    text-align:center;
    width:120px;
 }
-
 #bernie-social a:hover span {
    left: 100%;
 }
-
 #bernie-social a[class*="facebook"],
 #bernie-social a[class*="facebook"]:hover,
 #bernie-social a[class*="facebook"] span { background: #3b5998; }
@@ -65,90 +57,29 @@ ul {
 
 #bernie-social a[class*="instagrem"],
 #bernie-social a[class*="instagrem"]:hover,
-#bernie-social a[class*="instagrem"] span { background: #517fa4; }  
-
-
-img {
-	width: 500px;
-}
-
-body{
-	margin: 0;
-	padding: 0;
-	font-family: Lucida Grande, Helvetica, Arial, sans-serif;
-}
+#bernie-social a[class*="instagrem"] span { background: #517fa4; }
 
 nav {
-	top: 0;
-	width: 100%;
-	background-color: rgba(1, 1, 1, 0.8);
-	color: rgba(1, 1, 1, 0.8);
-	text-align: center;
-	height: 30px;
-	color: white;
-	padding-top: 15px;
-	position: relative;
-	z-index: 6
+   top: 0;
+   width: 100%;
+   background-color: rgba(1, 1, 1, 0.8);
+   color: rgba(1, 1, 1, 0.8);
+   text-align: center;
+   height: 30px;
+   color: white;
+   padding-top: 15px;
+   position: relative;
+   z-index: 6
 }
 
 nav a {
-	color: white;
-	font-size: 14px;
-	padding-left: 15px;
-	padding-right: 15px;
-	text-decoration: none;
-	font: sans-serif;
+   color: white;
+   font-size: 14px;
+   padding-left: 15px;
+   padding-right: 15px;
+   text-decoration: none;
+   font: sans-serif;
 }
 
 nav a:hover {
-	color: grey;	
-}
-
-#main img {
-	width: 900px;
-	/*margin-top: 22px;*/
-	position: fixed;
-	bottom: 0;
-	z-index: 3
-}
-
-#maintext {
-	
-	background-color: rgba(1, 1, 1, 0.8);
-	width: 500px;
-	/*height: 200px;*/
-	float: right;
-	padding: 30px;
-	text-align: center;
-	margin-right:290px;
-	color: white;
-	margin-top: 50px;
-	position: relative;
-	z-index: 2
-}
-
-#headfont {
-	font-family: Helvetica;
-	text-shadow: 1px 1px  black;
-}
-
-#skewedjawns {
-	border: 10px solid red;
-	height: 400px; 
-	/*background-color: blue;*/
-	-ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari */
-    transform: rotate(-20deg);
-    z-index: -3;
-    position: relative;
-    width: 100;
-
-
-}
-
-
-
-
-
-
-
+   color: grey;  
